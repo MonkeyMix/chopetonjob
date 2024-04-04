@@ -14,10 +14,11 @@ export function Caroussel() {
     <div className="pl-5 pr-5 pt-10 flex justify-center">
     <Carousel opts={{ align: "start", loop: true,}} className="overflow-hidden w-full" plugins={[Autoscroll({speed:1, stopOnInteraction:false})]}>
       <CarouselContent className="-ml-1 ">
-      {logos.map((_, index) => (
+      {logos.map((logoItem, index) => (
+        logoItem &&
         <CarouselItem key={index} className="pl-1 flex-[0_0_25%] flex items-center">
           <Image
-            src={_.logo}
+            src={logoItem.logo}
             width={300}
             height={300}
             alt="airfrance"
