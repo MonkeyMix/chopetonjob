@@ -79,7 +79,7 @@ export function Register() {
     return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="secondary">C&aposest parti</Button>
+        <Button variant="secondary">{`C'est parti`}</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[800px] bg-emerald-100">
         <div className="flex justify-center">
@@ -148,7 +148,7 @@ export function Register() {
                                     </div>
                                 </CardContent>
                                 <CardFooter className="flex justify-center">
-                                    <Button type="submit">C&aposest parti</Button>
+                                    <Button type="submit">${`C'est parti`}</Button>
                                 </CardFooter>
                             </form>
                         </Form>
