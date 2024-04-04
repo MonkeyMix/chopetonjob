@@ -17,10 +17,7 @@ import Image from "next/image";
 import {
     Card,
     CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
+    CardFooter
   } from "@/components/ui/card"
   import { Input } from "@/components/ui/input"
   import { Label } from "@/components/ui/label"
@@ -30,7 +27,6 @@ import {
     FormDescription,
     FormField,
     FormItem,
-    FormLabel,
     FormMessage,
   } from "@/components/ui/form"
   import { toast } from "@/components/ui/use-toast"
@@ -83,7 +79,7 @@ export function Register() {
     return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="secondary">C'est parti</Button>
+        <Button variant="secondary">C&aposest parti</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[800px] bg-emerald-100">
         <div className="flex justify-center">
@@ -104,7 +100,7 @@ export function Register() {
                 <div>
                     <TabsContent value="expert">
                         <Card>
-                        <DialogTitle className="pb-5 pt-5 text-center" style={{ minHeight: '80px' }}>Rejoins la communauté et gagne de l'argent en partageant ton savoir.</DialogTitle>
+                        <DialogTitle className="pb-5 pt-5 text-center" style={{ minHeight: '80px' }}>Rejoins la communauté et gagne de l&aposargent en partageant ton savoir.</DialogTitle>
                         <Form {...expertForm}>
                             <form onSubmit={expertForm.handleSubmit(onSubmit)} className="w-full space-y-6 ">
                                 <CardContent className="space-y-2 pt-2 flex flex-col items-center">
@@ -152,7 +148,7 @@ export function Register() {
                                     </div>
                                 </CardContent>
                                 <CardFooter className="flex justify-center">
-                                    <Button type="submit">C'est parti</Button>
+                                    <Button type="submit">C&aposest parti</Button>
                                 </CardFooter>
                             </form>
                         </Form>
@@ -160,7 +156,7 @@ export function Register() {
                     </TabsContent>
                     <TabsContent value="candidat">
                         <Card>
-                        <DialogTitle className="pb-5 pt-5 text-center" style={{ minHeight: '80px' }}>Réserve ta simulation d'entretien.</DialogTitle>
+                        <DialogTitle className="pb-5 pt-5 text-center" style={{ minHeight: '80px' }}>Réserve ta simulation d&aposentretien.</DialogTitle>
                         <Form {...candidatForm}>
                         <form onSubmit={candidatForm.handleSubmit(onSubmit)} className="w-full space-y-6 ">
                                 <CardContent className="space-y-2 pt-2 flex flex-col items-center">
@@ -208,7 +204,7 @@ export function Register() {
                                     </div>
                                 </CardContent>
                                 <CardFooter className="flex justify-center">
-                                    <Button type="submit">C'est parti</Button>
+                                    <Button type="submit">C&aposest parti</Button>
                                 </CardFooter>
                             </form>
                         </Form>

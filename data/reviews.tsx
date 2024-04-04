@@ -6,7 +6,7 @@ export const reviews = [
         position: "Trader",
         company: "Societe Generale",
         logo: "/person1.jpeg",
-        description: "\“En tant que trader expérimenté, je comprends l'importance cruciale de la préparation. Les simulations anonymes offrent un terrain d'entraînement authentique pour une confiance inébranlable lors des entretiens.\“"
+        description: "\“En tant que trader expérimenté, je comprends l&aposimportance cruciale de la préparation. Les simulations anonymes offrent un terrain d&aposentraînement authentique pour une confiance inébranlable lors des entretiens.\“"
     },
     {
         id: "2",

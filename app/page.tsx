@@ -82,7 +82,7 @@ export default function Home() {
                       <FaCheck/>
                     </div>
                     <div className={`${lusitana.className} font-[100] text-[20px] leading-[1.2] tracking-[-0.027em]`}>
-                      Réservez des simulations d'entretiens à l'heure qui vous convient le mieux, en fonction de votre emploi du temps
+                      Réservez des simulations d&aposentretiens à l&aposheure qui vous convient le mieux, en fonction de votre emploi du temps
                     </div>
                 </div>
                 <div className="flex items-center pb-5">
@@ -90,7 +90,7 @@ export default function Home() {
                       <FaCheck/>
                     </div>
                     <div className={`${lusitana.className} font-light text-[20px] leading-[1.2] tracking-[-0.027em]`}>
-                      Obtenez un avantage considérable à un tarif accessible, sans les frais élevés d'un coaching traditionnel.
+                      Obtenez un avantage considérable à un tarif accessible, sans les frais élevés d&aposun coaching traditionnel.
                     </div>
                 </div>
                 <div className="flex items-center">
@@ -98,7 +98,7 @@ export default function Home() {
                       <FaCheck/>
                     </div>
                     <div className={`${lusitana.className} font-light text-[20px] leading-[1.2] tracking-[-0.027em]`}>
-                      Que vous visiez la finance, la technologie, le marketing, ou d'autres domaines, nos experts couvrent un large éventail de secteurs.
+                      Que vous visiez la finance, la technologie, le marketing, ou d&aposautres domaines, nos experts couvrent un large éventail de secteurs.
                     </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="flex justify-center gap-8 flex-wrap pt-20 gap-20">
           <div className="flex flex-col justify-center w-1/3 gap-10">
               <h1 className={`${lusitana.className} font-[100] text-[60px] leading-[1.2] tracking-[-0.027em]`}>Réussite <span className="font-bold">assurée</span></h1>
-              <p className={`${lusitana.className} font-[100] text-[20px] leading-[1.2] tracking-[-0.027em] text-left text-slate-500/80`}>Bénéficiez des conseils avisés et des retours d'expérience de professionnels actifs au sein des entreprises ciblées.</p>
+              <p className={`${lusitana.className} font-[100] text-[20px] leading-[1.2] tracking-[-0.027em] text-left text-slate-500/80`}>Bénéficiez des conseils avisés et des retours d&aposexpérience de professionnels actifs au sein des entreprises ciblées.</p>
               <div className="flex flex-col">
                 <div className="flex items-center pb-5">
                   <div className="rounded-full bg-pink-300 h-8 w-8 flex items-center justify-center mr-4 flex-shrink-0">
@@ -145,7 +145,7 @@ export default function Home() {
             <div className="flex flex-col justify-center w-1/3 gap-10">
                 <h1 className={`${lusitana.className} font-[100] text-[60px] leading-[1.2] tracking-[-0.027em]`}>Réservez votre session dès maintenant et  <span className="font-bold">démarquez-vous</span> en entretien.</h1>
                 <p className={`${lusitana.className} font-[100] text-[20px] leading-[1.2] tracking-[-0.027em] text-left text-slate-500/80`}>Boostez votre réussite professionnelle dès aujourd’hui !</p>
-                <Button className="mt-4 rounded">C'est parti !</Button>
+                <Button className="mt-4 rounded">C&aposest parti !</Button>
               </div>
             </div>
         </div>
